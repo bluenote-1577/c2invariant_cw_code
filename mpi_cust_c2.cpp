@@ -786,6 +786,11 @@ int main (int argc, char*argv[]){
         }
         dodgson_file.close();
     }
+
+    else{
+        std::cerr << "gen_out not found. Make sure to generate gen_out.txt\n";
+        exit(1);
+    }
 	
     ////////////////////////////
 

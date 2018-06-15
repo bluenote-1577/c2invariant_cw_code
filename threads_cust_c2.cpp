@@ -763,7 +763,8 @@ obtain_multiplicands (
 
 int main (int argc, char*argv[]){
 
-	int numthreads = std::stoi(std::string(argv[1]));
+    std::cout << "Make sure to enter thread number" << '\n';
+    int numthreads = std::stoi(std::string(argv[1]));
 	std::cout << numthreads << '\n';
     omp_set_num_threads(numthreads);
 
@@ -781,6 +782,11 @@ int main (int argc, char*argv[]){
             }
         }
         dodgson_file.close();
+    }
+
+    else{
+        std::cerr << "gen_out file not found, make sure to generate gen_out.txt \n";
+        exit(1);
     }
 	
     ////////////////////////////
