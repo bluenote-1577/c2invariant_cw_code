@@ -4,7 +4,7 @@ Code for computing c_2 invariants of completed primitive graphs in phi4 theory.
 
 ## Requirements
 
-* [Giac : C++ library for symbolic computation](https://www-fourier.ujf-grenoble.fr/~parisse/giac.html) - The code was tested with version 1.4.9-59. The linear algebra library was used to compute symbolic determinants for Dodgson polynomials.
+* [Giac : C++ library for symbolic computation](https://www-fourier.ujf-grenoble.fr/~parisse/giac.html) - The code was tested with version 1.4.9-59. The linear algebra library was used to compute symbolic determinants for Dodgson polynomials. The instructions for installing the library are [here](https://www-fourier.ujf-grenoble.fr/~parisse/giac_compile.html).
 * C++ compiler - We compile with -std=c++0x. gcc version 4.4.7 was used.
 * OpenMP - The OpenMP library that was packaged with gcc version 4.4.7 was used.
 * Maple - Maple 18 was used but presumably any version should work.
