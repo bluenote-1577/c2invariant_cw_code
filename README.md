@@ -1,6 +1,6 @@
-# c2invariant_cw_code
+# c<sub>2</sub> invariant calculations by Chevalley-Warning method
 
-Code for computing c_2 invariants of completed primitive graphs in phi4 theory.
+Code for computing c_2 invariants of completed primitive graphs in phi4 theory. Using the Chevalley-Warning method and polynomial manipulation.
 
 ## Requirements
 
