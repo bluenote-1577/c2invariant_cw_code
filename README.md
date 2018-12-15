@@ -2,6 +2,8 @@
 
 Code for computing c_2 invariants of completed primitive graphs in phi4 theory using the Chevalley-Warning method and polynomial manipulation.
 
+A list of c_2s computed at 11 loops using this method is included.
+
 ## Requirements
 
 * [Giac : C++ library for symbolic computation](https://www-fourier.ujf-grenoble.fr/~parisse/giac.html) - The code was tested with version 1.4.9-59. The linear algebra library was used to compute symbolic determinants for Dodgson polynomials. The instructions for installing the library are [here](https://www-fourier.ujf-grenoble.fr/~parisse/giac_compile.html).
